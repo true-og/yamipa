@@ -1,17 +1,13 @@
-name: ${project.name}
-version: ${project.version}
+name: yamipa
+version: version: '${version}'
 main: io.josemmo.bukkit.plugin.YamipaPlugin
-api-version: 1.16
+api-version: '${apiVersion}'
 depend: [ProtocolLib]
 softdepend:
-  - BentoBox
   - GriefPrevention
-  - GroupManager
   - Hyperverse
-  - LuckPerms
   - Multiverse-Core
   - My_Worlds
-  - PhantomWorlds
   - Towny
   - WorldGuard
 
